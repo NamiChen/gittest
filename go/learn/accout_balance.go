@@ -11,8 +11,8 @@ import (
 	"github.com/ethereum/go-ethereum/ethclient"
 )
 
-func cmain() {
-	client, err := ethclient.Dial("https://mainnet.infura.io")
+func amain() {
+	client, err := ethclient.Dial("http://127.0.0.1:7545")
 	if err != nil {
 		log.Fatal(err)
 	}

@@ -6,15 +6,16 @@ import (
 	"math"
 	"math/big"
 
-	token "./contracts_erc20"
+	token "./model"
+
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
 )
 
-func main() {
+func amain() {
 
-	client, err := ethclient.Dial("https://mainnet.infura.io")
+	client, err := ethclient.Dial("http://127.0.0.1:7545")
 	if err != nil {
 		log.Fatal(err)
 	}

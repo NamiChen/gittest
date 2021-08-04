@@ -15,7 +15,7 @@ func emain() {
 	fmt.Printf("is valid: %v\n", re.MatchString("0x323b5d4c32345ced77393b3530b1eed0f346429d"))
 	fmt.Printf("is valid: %v\n", re.MatchString("0xZYXb5d4c32345ced77393b3530b1eed0f346429d"))
 
-	client, err := ethclient.Dial("https://mainnet.infura.io")
+	client, err := ethclient.Dial("http://127.0.0.1:7545")
 	if err != nil {
 		log.Fatal(err)
 	}
