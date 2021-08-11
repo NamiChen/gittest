@@ -1,0 +1,5 @@
+{
+    "solidity.defaultCompiler": "localFile",
+    "solidity.compileUsingLocalVersion": "d:\\program data\\zombies\\soljson-v0.4.22+commit.4cb486ee.js",
+    "solidity.compileUsingRemoteVersion": "v0.4.22+commit.4cb486ee"
+}
