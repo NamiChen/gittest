@@ -1,0 +1,19 @@
+{
+  "name": "METoken",
+  "version": "1.0.0",
+  "description": "npm-install-package",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": "true",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.0"
+  }
+}
